@@ -113,6 +113,7 @@ struct MainView: View {
                 .clipped()
                 .cornerRadius(12)
                 .padding(.horizontal, 20)
+                .accessibilityIdentifier("successCat")
             
             Text("Ты уже в ШОКе")
                 .font(.system(size: 24, weight: .medium))

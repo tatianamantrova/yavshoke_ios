@@ -18,6 +18,7 @@ struct EditProfileView: View {
                     .font(.system(size: 24, weight: .bold))
                     .foregroundColor(.black)
                     .padding(.top, 20)
+                    .accessibilityIdentifier("titleEditProfile")
                 
                 VStack(alignment: .leading, spacing: 8) {
                     Text("Имя")

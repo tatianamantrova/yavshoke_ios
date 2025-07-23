@@ -86,5 +86,6 @@ struct DisplayConfettiModifier: ViewModifier {
 extension View {
     func displayConfetti(isActive: Binding<Bool>) -> some View {
         self.modifier(DisplayConfettiModifier(isActive: isActive))
+            .accessibilityIdentifier("confetti")
     }
 } 
