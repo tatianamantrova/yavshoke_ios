@@ -53,7 +53,7 @@ final class ProfilePageTests: XCTestCase {
             .checkEditProfileButtonIsDisplayed()
             .checkLogoutButtonIsDisplayed()
             .tapLogoutButton()
-        }
+    }
     
     @MainActor
     func testNavigateFromProfilePageToMainPage() throws {

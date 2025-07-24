@@ -6,12 +6,14 @@
 //
 
 import XCTest
+import Fakery
 
 final class LoginPageTests: XCTestCase {
     
     // MARK: - private prorerties
     
     private let app = XCUIApplication()
+    private var faker = Faker()
     
     private lazy var loginPage = LoginPage(app: app)
     private lazy var mainPage = MainPage(app: app)
@@ -36,8 +38,8 @@ final class LoginPageTests: XCTestCase {
     @MainActor
     func testShowErrorOnLoginPage() throws {
         let testCases: [(email: String, password: String, description: String)] = [
-            ("test@", "123456", "Ввод почты без домена"),
-            ("test@gmail.com", "1234", "Ввод почты с паролем меньше 5 символов")
+            ("test@", faker.internet.password(minimumLength: 6, maximumLength: 20), "Ввод почты без домена"),
+            (faker.internet.email(), faker.internet.password(minimumLength: 1, maximumLength: 4), "Ввод почты с паролем меньше 5 символов")
         ]
         
         for (email, password, description) in testCases {

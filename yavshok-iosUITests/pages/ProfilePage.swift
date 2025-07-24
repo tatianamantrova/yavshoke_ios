@@ -90,4 +90,11 @@ final class ProfilePage {
         
         return self
     }
+    
+    @discardableResult
+    func checkEqualUserStatus(with status: String) -> Self {
+        checkLabel(for: ageLabel, with: status)
+        
+        return self
+    }
 }
