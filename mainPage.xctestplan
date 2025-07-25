@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "201706BB-A268-4B27-AD21-A04EA2350376",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "selectedTests" : [
+        "MainPageTests\/testNavigateFromMainPageToLoginPage()",
+        "MainPageTests\/testShowConfettiOnMainPage()",
+        "MainPageTests\/testShowInShockLabelOnMainPage()",
+        "MainPageTests\/testShowNotInShockLabelOnMainPage()",
+        "MainPageTests\/testShowSuccessCatOnMainPage()",
+        "MainPageTests\/testTypeEmailOnMainPage()",
+        "ProfilePageTests\/testNavigateFromProfilePageToMainPage()"
+      ],
+      "target" : {
+        "containerPath" : "container:yavshok-ios.xcodeproj",
+        "identifier" : "8E2FEBD12E2FAA3200DA6F51",
+        "name" : "yavshok-iosUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

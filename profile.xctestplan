@@ -1,0 +1,36 @@
+{
+  "configurations" : [
+    {
+      "id" : "C8015EE5-F220-48BE-960F-11B4E3239E3C",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "selectedTests" : [
+        "EditProfilePageTests\/testChangeNameOnProfilePage()",
+        "EditProfilePageTests\/testNavigateFromEditProfilePageToProfilePage()",
+        "EditProfilePageTests\/testShowAllViewsOnProfilePage()",
+        "LoginPageTests\/testNavigateFromLoginPageToProfilePage()",
+        "ProfilePageTests\/testNavigateFromProfilePageToEditPage()",
+        "ProfilePageTests\/testShowAllViewsOnProfilePage()",
+        "RegisterPageTests\/testCheckStatusAdultCat()",
+        "RegisterPageTests\/testCheckStatusOldCat()",
+        "RegisterPageTests\/testCheckStatusYoungCat()",
+        "RegisterPageTests\/testSuccessRegisterUser()"
+      ],
+      "target" : {
+        "containerPath" : "container:yavshok-ios.xcodeproj",
+        "identifier" : "8E2FEBD12E2FAA3200DA6F51",
+        "name" : "yavshok-iosUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

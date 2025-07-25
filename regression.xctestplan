@@ -1,0 +1,50 @@
+{
+  "configurations" : [
+    {
+      "id" : "CAC1B20F-0051-4093-9F5B-59E51F9DE373",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "selectedTests" : [
+        "EditProfilePageTests\/testChangeNameOnProfilePage()",
+        "EditProfilePageTests\/testNavigateFromEditProfilePageToProfilePage()",
+        "EditProfilePageTests\/testShowAllViewsOnProfilePage()",
+        "LaunchTests\/testLaunch()",
+        "LoginPageTests\/testNavigateFromLoginPageToMainPage()",
+        "LoginPageTests\/testNavigateFromLoginPageToProfilePage()",
+        "LoginPageTests\/testNavigateFromLoginPageToRegisterPage()",
+        "LoginPageTests\/testShowErrorOnLoginPage()",
+        "LoginPageTests\/testShowPlaceholdersOnLoginPage()",
+        "MainPageTests\/testNavigateFromMainPageToLoginPage()",
+        "MainPageTests\/testShowConfettiOnMainPage()",
+        "MainPageTests\/testShowInShockLabelOnMainPage()",
+        "MainPageTests\/testShowNotInShockLabelOnMainPage()",
+        "MainPageTests\/testShowSuccessCatOnMainPage()",
+        "MainPageTests\/testTypeEmailOnMainPage()",
+        "ProfilePageTests\/testNavigateFromProfilePageToEditPage()",
+        "ProfilePageTests\/testNavigateFromProfilePageToMainPage()",
+        "ProfilePageTests\/testShowAllViewsOnProfilePage()",
+        "RegisterPageTests\/testCheckStatusAdultCat()",
+        "RegisterPageTests\/testCheckStatusOldCat()",
+        "RegisterPageTests\/testCheckStatusYoungCat()",
+        "RegisterPageTests\/testNavigateFromRegisterPageToLoginPage()",
+        "RegisterPageTests\/testShowPlaceholdersOnRegisterPage()",
+        "RegisterPageTests\/testSuccessRegisterUser()"
+      ],
+      "target" : {
+        "containerPath" : "container:yavshok-ios.xcodeproj",
+        "identifier" : "8E2FEBD12E2FAA3200DA6F51",
+        "name" : "yavshok-iosUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

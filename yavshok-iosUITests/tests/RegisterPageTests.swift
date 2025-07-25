@@ -108,7 +108,7 @@ final class RegisterPageTests: XCTestCase {
     }
     
     @MainActor
-    func testShowPlaceholdersOnMainPage() throws {
+    func testShowPlaceholdersOnRegisterPage() throws {
         registerPage
             .checkEmailFieldIsDisplayed()
             .checkEmailPlaceholderIsDisplayed()

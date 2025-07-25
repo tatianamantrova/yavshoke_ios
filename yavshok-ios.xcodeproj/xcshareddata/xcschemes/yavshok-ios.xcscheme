@@ -27,8 +27,27 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      shouldAutocreateTestPlan = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES">
+      <TestPlans>
+         <TestPlanReference
+            reference = "container:smoke.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:registration.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:login.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:profile.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:mainPage.xctestplan">
+         </TestPlanReference>
+         <TestPlanReference
+            reference = "container:regression.xctestplan">
+         </TestPlanReference>
+      </TestPlans>
       <Testables>
          <TestableReference
             skipped = "NO"
@@ -40,6 +59,222 @@
                BlueprintName = "yavshok-iosUITests"
                ReferencedContainer = "container:yavshok-ios.xcodeproj">
             </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E2FEBD12E2FAA3200DA6F51"
+               BuildableName = "yavshok-iosUITests.xctest"
+               BlueprintName = "yavshok-iosUITests"
+               ReferencedContainer = "container:yavshok-ios.xcodeproj">
+            </BuildableReference>
+            <SelectedTests>
+               <Test
+                  Identifier = "LaunchTests/testLaunch()">
+               </Test>
+            </SelectedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E2FEBD12E2FAA3200DA6F51"
+               BuildableName = "yavshok-iosUITests.xctest"
+               BlueprintName = "yavshok-iosUITests"
+               ReferencedContainer = "container:yavshok-ios.xcodeproj">
+            </BuildableReference>
+            <SelectedTests>
+               <Test
+                  Identifier = "LoginPageTests/testNavigateFromLoginPageToMainPage()">
+               </Test>
+               <Test
+                  Identifier = "LoginPageTests/testNavigateFromLoginPageToProfilePage()">
+               </Test>
+               <Test
+                  Identifier = "LoginPageTests/testNavigateFromLoginPageToRegisterPage()">
+               </Test>
+               <Test
+                  Identifier = "LoginPageTests/testShowErrorOnLoginPage()">
+               </Test>
+               <Test
+                  Identifier = "LoginPageTests/testShowPlaceholdersOnMainPage()">
+               </Test>
+               <Test
+                  Identifier = "RegisterPageTests/testNavigateFromRegisterPageToLoginPage()">
+               </Test>
+            </SelectedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E2FEBD12E2FAA3200DA6F51"
+               BuildableName = "yavshok-iosUITests.xctest"
+               BlueprintName = "yavshok-iosUITests"
+               ReferencedContainer = "container:yavshok-ios.xcodeproj">
+            </BuildableReference>
+            <SelectedTests>
+               <Test
+                  Identifier = "RegisterPageTests/testCheckStatusAdultCat()">
+               </Test>
+               <Test
+                  Identifier = "RegisterPageTests/testCheckStatusOldCat()">
+               </Test>
+               <Test
+                  Identifier = "RegisterPageTests/testCheckStatusYoungCat()">
+               </Test>
+               <Test
+                  Identifier = "RegisterPageTests/testNavigateFromRegisterPageToLoginPage()">
+               </Test>
+               <Test
+                  Identifier = "RegisterPageTests/testShowPlaceholdersOnMainPage()">
+               </Test>
+               <Test
+                  Identifier = "RegisterPageTests/testSuccessRegisterUser()">
+               </Test>
+            </SelectedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E2FEBD12E2FAA3200DA6F51"
+               BuildableName = "yavshok-iosUITests.xctest"
+               BlueprintName = "yavshok-iosUITests"
+               ReferencedContainer = "container:yavshok-ios.xcodeproj">
+            </BuildableReference>
+            <SelectedTests>
+               <Test
+                  Identifier = "LoginPageTests/testNavigateFromLoginPageToRegisterPage()">
+               </Test>
+               <Test
+                  Identifier = "RegisterPageTests/testCheckStatusAdultCat()">
+               </Test>
+               <Test
+                  Identifier = "RegisterPageTests/testCheckStatusOldCat()">
+               </Test>
+               <Test
+                  Identifier = "RegisterPageTests/testCheckStatusYoungCat()">
+               </Test>
+               <Test
+                  Identifier = "RegisterPageTests/testNavigateFromRegisterPageToLoginPage()">
+               </Test>
+               <Test
+                  Identifier = "RegisterPageTests/testShowPlaceholdersOnMainPage()">
+               </Test>
+               <Test
+                  Identifier = "RegisterPageTests/testSuccessRegisterUser()">
+               </Test>
+            </SelectedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E2FEBD12E2FAA3200DA6F51"
+               BuildableName = "yavshok-iosUITests.xctest"
+               BlueprintName = "yavshok-iosUITests"
+               ReferencedContainer = "container:yavshok-ios.xcodeproj">
+            </BuildableReference>
+            <SelectedTests>
+               <Test
+                  Identifier = "RegisterPageTests/testSuccessRegisterUser()">
+               </Test>
+            </SelectedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E2FEBD12E2FAA3200DA6F51"
+               BuildableName = "yavshok-iosUITests.xctest"
+               BlueprintName = "yavshok-iosUITests"
+               ReferencedContainer = "container:yavshok-ios.xcodeproj">
+            </BuildableReference>
+            <SelectedTests>
+               <Test
+                  Identifier = "LoginPageTests/testNavigateFromLoginPageToMainPage()">
+               </Test>
+               <Test
+                  Identifier = "LoginPageTests/testNavigateFromLoginPageToProfilePage()">
+               </Test>
+               <Test
+                  Identifier = "LoginPageTests/testNavigateFromLoginPageToRegisterPage()">
+               </Test>
+               <Test
+                  Identifier = "LoginPageTests/testShowErrorOnLoginPage()">
+               </Test>
+               <Test
+                  Identifier = "LoginPageTests/testShowPlaceholdersOnMainPage()">
+               </Test>
+            </SelectedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E2FEBD12E2FAA3200DA6F51"
+               BuildableName = "yavshok-iosUITests.xctest"
+               BlueprintName = "yavshok-iosUITests"
+               ReferencedContainer = "container:yavshok-ios.xcodeproj">
+            </BuildableReference>
+            <SelectedTests>
+               <Test
+                  Identifier = "EditProfilePageTests/testShowAllViewsOnProfilePage()">
+               </Test>
+            </SelectedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E2FEBD12E2FAA3200DA6F51"
+               BuildableName = "yavshok-iosUITests.xctest"
+               BlueprintName = "yavshok-iosUITests"
+               ReferencedContainer = "container:yavshok-ios.xcodeproj">
+            </BuildableReference>
+            <SelectedTests>
+               <Test
+                  Identifier = "MainPageTests/testNavigateFromMainPageToLoginPage()">
+               </Test>
+               <Test
+                  Identifier = "MainPageTests/testShowConfettiOnMainPage()">
+               </Test>
+               <Test
+                  Identifier = "MainPageTests/testShowInShockLabelOnMainPage()">
+               </Test>
+               <Test
+                  Identifier = "MainPageTests/testShowNotInShockLabelOnMainPage()">
+               </Test>
+               <Test
+                  Identifier = "MainPageTests/testShowSuccessCatOnMainPage()">
+               </Test>
+               <Test
+                  Identifier = "MainPageTests/testTypeEmailOnMainPage()">
+               </Test>
+            </SelectedTests>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8E2FEBD12E2FAA3200DA6F51"
+               BuildableName = "yavshok-iosUITests.xctest"
+               BlueprintName = "yavshok-iosUITests"
+               ReferencedContainer = "container:yavshok-ios.xcodeproj">
+            </BuildableReference>
+            <SelectedTests>
+               <Test
+                  Identifier = "EditProfilePageTests/testChangeNameOnProfilePage()">
+               </Test>
+               <Test
+                  Identifier = "EditProfilePageTests/testNavigateFromEditProfilePageToProfilePage()">
+               </Test>
+               <Test
+                  Identifier = "EditProfilePageTests/testShowAllViewsOnProfilePage()">
+               </Test>
+            </SelectedTests>
          </TestableReference>
       </Testables>
    </TestAction>

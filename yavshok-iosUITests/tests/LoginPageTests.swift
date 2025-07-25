@@ -62,7 +62,7 @@ final class LoginPageTests: XCTestCase {
     }
     
     @MainActor
-    func testShowPlaceholdersOnMainPage() throws {
+    func testShowPlaceholdersOnLoginPage() throws {
         loginPage
             .checkPageOpened()
             .checkEmailFieldIsDisplayed()

@@ -65,6 +65,12 @@
 		67F1FD172E10715D001FDF03 /* yavshok_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = yavshok_iosApp.swift; sourceTree = "<group>"; };
 		67F1FD192E10715D001FDF03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E2FEBD22E2FAA3200DA6F51 /* yavshok-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "yavshok-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EA2AD342E32CF9A002C6FED /* smoke.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = smoke.xctestplan; sourceTree = "<group>"; };
+		8EA2AD362E32D314002C6FED /* registration.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = registration.xctestplan; sourceTree = "<group>"; };
+		8EA2AD372E33854D002C6FED /* login.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = login.xctestplan; sourceTree = "<group>"; };
+		8EA2AD382E3385BB002C6FED /* profile.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = profile.xctestplan; sourceTree = "<group>"; };
+		8EA2AD392E33865E002C6FED /* mainPage.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = mainPage.xctestplan; sourceTree = "<group>"; };
+		8EA2AD3A2E3388DB002C6FED /* regression.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = regression.xctestplan; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -150,6 +156,12 @@
 		67F1FD0B2E10715C001FDF03 = {
 			isa = PBXGroup;
 			children = (
+				8EA2AD3A2E3388DB002C6FED /* regression.xctestplan */,
+				8EA2AD392E33865E002C6FED /* mainPage.xctestplan */,
+				8EA2AD382E3385BB002C6FED /* profile.xctestplan */,
+				8EA2AD372E33854D002C6FED /* login.xctestplan */,
+				8EA2AD362E32D314002C6FED /* registration.xctestplan */,
+				8EA2AD342E32CF9A002C6FED /* smoke.xctestplan */,
 				67F1FD162E10715D001FDF03 /* yavshok-ios */,
 				8E2FEBD32E2FAA3200DA6F51 /* yavshok-iosUITests */,
 				67F1FD152E10715D001FDF03 /* Products */,

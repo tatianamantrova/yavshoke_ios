@@ -1,0 +1,33 @@
+{
+  "configurations" : [
+    {
+      "id" : "04455D82-65B7-455F-9EFD-5C937D7F57A1",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "selectedTests" : [
+        "LoginPageTests\/testNavigateFromLoginPageToRegisterPage()",
+        "RegisterPageTests\/testCheckStatusAdultCat()",
+        "RegisterPageTests\/testCheckStatusOldCat()",
+        "RegisterPageTests\/testCheckStatusYoungCat()",
+        "RegisterPageTests\/testNavigateFromRegisterPageToLoginPage()",
+        "RegisterPageTests\/testShowPlaceholdersOnRegisterPage()",
+        "RegisterPageTests\/testSuccessRegisterUser()"
+      ],
+      "target" : {
+        "containerPath" : "container:yavshok-ios.xcodeproj",
+        "identifier" : "8E2FEBD12E2FAA3200DA6F51",
+        "name" : "yavshok-iosUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
